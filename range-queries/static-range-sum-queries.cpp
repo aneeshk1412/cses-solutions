@@ -20,5 +20,25 @@ const ld PI = 3.141592653589793, EPS = 1e-9;
 int main(int argc, char const *argv[])
 {
 	/* code */
+	IFALSE;
+	ll n, q; cin >> n >> q;
+	
+	ll arr[n], pref[n+1];
+	pref[0]=0;
+
+	for (ll i=0; i<n; i++) {
+		cin >> arr[i];
+	}
+
+	for (ll i=0; i<n; i++) {
+		pref[i+1] = pref[i] + arr[i];
+	}
+
+	while (q--) {
+		ll s, e;
+		cin >> s >> e;
+		cout << pref[e] - pref[s-1] << "\n";
+	}
+
 	return 0;
 }
