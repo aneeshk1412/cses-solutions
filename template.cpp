@@ -17,8 +17,7 @@ const ld PI = 3.141592653589793, EPS = 1e-9;
 // Defines 
 #define IFALSE ios_base::sync_with_stdio(false); cin.tie(nullptr); cout.tie(nullptr)
 
-int main(int argc, char const *argv[])
-{
+int main(int argc, char const *argv[]) {
 	/* code */
 	return 0;
 }
