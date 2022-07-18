@@ -173,8 +173,3 @@ dmypy.json
 
 # Cython debug symbol
 cython_debug
-
-# CP files
-input.txt
-output.txt
-script.sh
